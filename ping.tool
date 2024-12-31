@@ -25,5 +25,38 @@ int main() {
 
     ping(target);
 
-    return 0;
-}
+int main() {
+int choice;
+   cout << "welcome to ping tool!" << endl;
+
+   do{
+       cout <<"\n1. Ping a Host\n2. Exit" << endl;
+
+       cout << "Enter your choice:";
+       cin  >> choice;
+
+       switch(choice) {
+          case 1:
+             pingHost();
+             break;
+          case 2:
+              cout << "Existing the program. Goodbye!"<< endl;
+              break;
+            default:
+              cout << "invalid choice! Please try again." << endl;
+       }
+   } while (choice != 2):
+    
+    return 0:
+            
+
+
+       }
+   }
+
+
+
+
+
+
+
